@@ -1,0 +1,18 @@
+@import './abstracts/variables';
+@import './mixins/breakpoints';
+@import './abstracts/common';
+@import './includes/header';
+@import './includes/button';
+@import './includes/footer';
+
+ul li {
+    font-size: x-small;
+}  
+input {
+    background-color: #c75a4e;
+    border:#c75a4e;
+    width:64%;
+    @include media-min-lg{
+    width: 29%;
+    }
+}
